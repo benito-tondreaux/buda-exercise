@@ -48,7 +48,7 @@ After that all stations, appears the connections between the stations. For examp
     A,B
     B,C
 
-This means that exist two edges, first connection between the station A with B and finally the connection between B with C. 
+The first line indicates that exists two edges. The first connection between the station A with B and finally the connection between B with C. 
 
 Finally, the red file looks like this:
 
