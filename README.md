@@ -1,6 +1,6 @@
 # Buda exercise - Metro
 
-This is an exercise to apply Buda. This is an exercise of a metro network and consist on search the best road between two stations.
+This is an exercise of a metro network and consist on search the best road between two stations.
 
 -------
 
@@ -21,7 +21,7 @@ Where:
 
 ----
 
-On the other hand, if you want to run the test, first you must install the gem `test-unit`:
+On the other hand, if you want to run the test, you must install the gem first `test-unit`:
 
     gem install test-unit
 
