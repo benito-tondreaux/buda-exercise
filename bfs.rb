@@ -1,11 +1,11 @@
 class BFS
   
   # Initialize values
-  def initialize(start_node, final_node, graph, train_color = 'none')
+  def initialize(start_node, final_node, graph, train_color)
     @start_node = start_node
     @final_node = final_node
     @graph = graph
-    @train_color = train_color
+    @train_color =  train_color == nil ? 'none' : train_color
     @road ={}
   end
 
