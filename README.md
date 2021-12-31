@@ -4,14 +4,14 @@ This is an exercise of a metro network and consist on search the best road betwe
 
 -------
 
-First, the solution was created on `ruby 2.7.2`. To run the solution only you have to run on console:
+First, the solution was created on `ruby 2.7.2`. To run the solution you have to run on console:
 
     ruby main.rb <red.txt> <name_node_start> <name
     _node_end> <color_train>
   
 Where:
 
-* `red.txt:` File that contains the metro red.
+* `red.txt:` File that contains the metro network.
 
 * `name_node_start:` Name of the station where the train start.
 
@@ -21,7 +21,7 @@ Where:
 
 ----
 
-On the other hand, if you want to run the test, you must install the gem first `test-unit`:
+On the other hand, if you want to run the test, you must previously install the gem `test-unit`:
 
     gem install test-unit
 
@@ -31,18 +31,18 @@ Later, to run the tests you must run on console:
 
 ----
 
-### Format of the file `red.txt`
+### `red.txt` File Format
 
-In the first line indicates the number of stations of the red. For example:
+The first line indicates the number of stations of the network. For example:
 
     3
     A,none
     B,red
     C,green
 
-This Indicate that exist three stations on the metro red. Later, the next lines indicate the specifications of each station: `name station, color station`. If the station not have color the file will indicates that the color it's `none`.
+That will indicate the existence of three stations on the metro network. Later, the next lines indicate the specifications of each station: `name station, color station`. If the station does not have a color, the file will indicates that the color it's `none`.
 
-After that all stations, appears the connections between the stations. For example:
+After declaring the stations, we continue to declaring the connections between the stations. For example:
 
     2
     A,B
@@ -50,7 +50,7 @@ After that all stations, appears the connections between the stations. For examp
 
 The first line indicates that exists two edges. The first connection between the station A with B and finally the connection between B with C. 
 
-Finally, the red file looks like this:
+Finally, the `red.txt` looks like this:
 
     3
     A,none
